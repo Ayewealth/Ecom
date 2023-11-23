@@ -1,4 +1,12 @@
 {
   "version": 2,
-  "builds": [{ "src": "myproject", "use": "@now/python" }]
+  "builds": [
+    {
+      "src": "ecommerce",
+      "use": "@now/python",
+      "config": {
+        "python": "3.11.2"
+      }
+    }
+  ]
 }
